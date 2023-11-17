@@ -2434,6 +2434,60 @@ input:not(:hover){
 .links-box:not(:hover){
       transition: 0.5s ease;
 }
+.community{
+
+      display: flex;
+
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 50px;
+      width: 100%;
+}
+.rules-image{
+        display: flex;
+        flex-direction: column;
+}
+.rules-image img{
+      width: 300px;
+}
+.rules-container{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     width: 98%;
+     gap: 20px;
+     background: black;
+     height: auto;
+}
+.rules-box{
+     display: flex;
+     justify-content: left;
+     align-items: center;
+     margin-right: auto;
+     width: 90%;
+     margin-left: 10px;
+     
+     
+}
+.rules-box img{
+     width: 40px;
+}
+.text-rules{
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  height: 50px;
+}
+.text-rules h1{
+  color: #FFAC0C;
+  font-size: 30px;
+  margin-top: -50px;
+}
 }
 
 @media (max-width: 810px) {
