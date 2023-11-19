@@ -2791,15 +2791,16 @@ input:not(:hover){
             display: flex;
 
      align-items: center;
-
-     flex-direction: column;
+     
+     justify-content: center;
+     flex-wrap: wrap;
      margin-top: 50px;
      gap: 20px;
             transition: max-height 0.6s ease-out;
         
 }
 .project-detail-gallery-box img{
-        width: 500px;
+        width: 400px;
             border-radius: 10px;
             transition: transform 0.5s;
 }
@@ -3939,7 +3940,8 @@ input:not(:hover){
             display: flex;
 
      align-items: center;
-
+     justify-content: center;
+     flex-direction: column;
      flex-direction: column;
      margin-top: 50px;
      gap: 20px;
