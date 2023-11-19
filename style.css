@@ -1589,7 +1589,7 @@ input:not(:hover){
             display: flex;
 
      align-items: center;
-
+     justify-content: center;
      flex-wrap: wrap;
      margin-top: 50px;
      gap: 20px;
