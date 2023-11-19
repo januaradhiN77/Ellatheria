@@ -580,6 +580,7 @@ h2 {
   justify-content: space-between;
   font-size: 0.9rem;
   font-weight: 400;
+  margin-bottom: auto;
 }
 
 .copyright span {
