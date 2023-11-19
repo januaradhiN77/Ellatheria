@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Ellatheria</title>
+
+    <link rel="stylesheet" href="style.css">
+   <link rel="shorcut icon" href="img/ella.f.logo.jpg">
+
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.3.67/css/materialdesignicons.min.css">
+    
+
+    
+           <style> 
+        #loader { 
+            border: 6px solid #FFAC00; 
+            border-radius: 50%; 
+            border-top: 7px solid transparent; 
+            width: 50px; 
+            height: 50px; 
+            animation: spin 1s linear infinite; 
+        } 
+         
+        @keyframes spin { 
+            100% { 
+                transform: rotate(360deg); 
+            } 
+        } 
+         
+        .center { 
+            position: fixed;
+            top: 0; 
+            bottom: 0; 
+            left: 0; 
+            right: 0; 
+            margin: auto; 
+        } 
+    </style> 
+
+
+</head>
+
+<body>
+
+<div id="loader" class="center"></div> 
+
+
+    <script> 
+        document.onreadystatechange = function() { 
+            if (document.readyState !== "complete") { 
+                document.querySelector( 
+                "body").style.visibility = "hidden"; 
+                document.querySelector( 
+                "#loader").style.visibility = "visible"; 
+            } else { 
+                document.querySelector( 
+                "#loader").style.display = "none"; 
+                document.querySelector( 
+                "body").style.visibility = "visible"; 
+            } 
+        }; 
+    </script> 
+
+    <nav>
+
+        <a href="https://ellatheria.my.id" class="logo"><img src="img/ella.f.logo.jpg"></a>
+        <img src="img/ellatheria_text.png" style="width: 150px; margin-left: 20px;">
+        <div class="toggle" onclick="toggleMenu();">
+        </div>
+        
+        
+        <ul class="menu">
+                
+            <li><a href="https://ellatheria.my.id/" >Home</a></li>
+            <li><a href="#" onclick="toggleMenu();">Gallery</a></li>
+
+            <li><a href="https://ellatheria.my.id/article/article" onclick="toggleMenu();">Article</a></li>
+             <li><a href="https://ellatheria.my.id/merchandise" onclick="toggleMenu();">Merchandise</a></li>
+                        <li> <a href="https://ellatheria.my.id/twibbon" onclick="toggleMenu();">Twibbon Ellaterland</a></li>
+             <li> <a href="" class="select" onclick="toggleMenu();">About Us</a></li>
+        </ul>
+    </nav>
+
+
+      
+
+<section class="project-detail">
+        <div class="project-detail-container">
+                <div class="project-detail-box">
+                        <div class="project-detail-image">
+
+        <img src="" id="imageUtama">
+
+                        </div>
+                        
+<div class="text-project-detail" >
+        <span id="hastag"></span>
+        <p id="textProject"><p style="font-size: 10px;" id="tanggalProject"></p></p>
+
+</div>
+<div class="project-detail-gallery">
+        <h2>GALLERY</h2>
+        <div class="project-detail-gallery-box" id="detail-project">
+               <img src="" id="gallery1">
+        </div>
+        <div class="project-detail-gallery-box">
+                <img src="" id="gallery2">
+        </div>
+        
+        <div class="project-detail-gallery-box">
+               <img src="" id="gallery3">
+        </div>
+        <div class="project-detail-gallery-box">
+               <img src="" id="gallery4">
+        </div>
+        <div class="project-detail-gallery-box">
+                <img src="" id="gallery5">
+        </div>
+        
+        <div class="project-detail-gallery-box">
+                <img src="" id="gallery6">
+        </div>
+        <div class="project-detail-gallery-box">
+                <img src="" id="gallery7">
+        </div>
+
+<div class="join-us">
+<div style="width: 130px; margin-top: 30px; "class="button-join">
+<a href="about.html">BACK</a>
+</div>
+</div>
+
+</div>
+                        
+                        
+                        
+                        
+                        
+                        
+      <div class="batas"></div>
+      <div class="batas"></div>
+      <div class="batas"></div>
+
+                </div>
+
+        </div>
+        
+        
+        
+</section>
+
+
+
+
+
+
+
+<script>
+        function goToWebsite(websiteURL) {
+                window.location.href = websiteURL;
+                //alert("Oops! Terjadi kesalahan. 4000");
+        }
+</script>
+        <div class="copyright">
+                <p>Copyright &#169; 2023 Ellatheria</p>
+                <p><span></span>All Right Reserved</p>
+        </div>
+        <script src="https://ellatheria.my.id/js/typed.min.js"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src=".js/main.js"></script>
+<script src="data_project.js"></script>
+</body>
+
+</html>

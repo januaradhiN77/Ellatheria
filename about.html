@@ -128,52 +128,52 @@
         <div class="project">
 
                 <div class="projectbox">
-                        <div class="image_project">
+<a href="#" style="color: white" onclick="return tampilkanDetailProject('')"><div class="image_project">
 
        <img src="merchandiseimg/merch1.0.jpg">
 <span>Merch Vol. 01</span>
-                        </div>
+                        </div></a>
 
                 </div>
 
-                <div class="projectbox">
-                        <div class="image_project">
+<div class="projectbox">
+<a href="#" style="color: white" onclick="return tampilkanDetailProject('')"><div class="image_project">
 
-                                <img src="https://pbs.twimg.com/media/F4m6Ba2bgAA0-4p?format=jpg&name=large">
+                             <img src="https://pbs.twimg.com/media/F4m6Ba2bgAA0-4p?format=jpg&name=large">
                                 <span style="font-size: 13px; ">#3llatheriaAnniversary</span>
-                        </div>
+                        </div></a>
 
                 </div>
-                <div class="projectbox">
-                        <div class="image_project">
+                                      <div class="projectbox">
+<a href="#" style="color: white" onclick="return tampilkanDetailProject('arc17ellaterland')"><div class="image_project">
 
                                 <img src="https://pbs.twimg.com/media/F22-FNVbYAADScA?format=jpg&name=large">
                                 <span>#Arc17Ellaterland</span>
-                        </div>
+                        </div></a>
 
                 </div>
                 <div class="projectbox">
-                        <div class="image_project">
+<a href="#" style="color: white" onclick="return tampilkanDetailProject('anniversary2abigailuxe')"><div class="image_project">
 
                                 <img src="https://pbs.twimg.com/media/FbNa2T_UIAAtlYA?format=jpg&name=small">
                                 <span style="font-size: 13px;">#Abigailuxe2eachDream</span>
-                        </div>
+                        </div></a>
 
                 </div>
                 <div class="projectbox">
-                        <div class="image_project">
+<a href="#" style="color: white" onclick="return tampilkanDetailProject('kaizokuella16')"><div class="image_project">
 
                                 <img src="https://pbs.twimg.com/media/FZfY3SgUYAA9D-J?format=jpg&name=small">
                                 <span>#KaizokuElla16</span>
-                        </div>
+                        </div></a>
 
                 </div>
                 <div class="projectbox">
-                        <div class="image_project">
+<a href="#" style="color: white" onclick="return tampilkanDetailProject('startjourneyella')"><div class="image_project">
 
                                 <img src="https://pbs.twimg.com/media/FONmfgaVIAoXXI5?format=jpg&name=small">
                                 <span>#StartJourneyElla</span>
-                        </div>
+                        </div></a>
 
                 </div>
 
@@ -231,6 +231,13 @@
                 window.location.href = websiteURL;
                 //alert("Oops! Terjadi kesalahan. 4000");
         }
+function tampilkanDetailProject(projectId) {
+            // Mengarahkan ke halaman detail lagu sesuai lagu yang dipilih
+            window.top.location.href = 'project.html?project=' + projectId;
+            
+            return false;
+        }
+        
 </script>
         <div class="copyright">
                 <p>Copyright &#169; 2023 Ellatheria</p>
@@ -239,6 +246,7 @@
 
 <script src="https://unpkg.com/scrollreveal"></script>
 <script src="js/main.js"></script>
+<script src="data_project.js"></script>
 </body>
 
 </html>

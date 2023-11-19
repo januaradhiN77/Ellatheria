@@ -9,12 +9,15 @@ function toggleMenu(){
 //multiple text
 
 const typed = new Typed('.multiple-text', {
+
         strings: [ 'Ohayou! Konichiwa! Oyasumi! Aku ingin ada di setiap harimu.', 'Welcome to the Ellatheria Official Website!', 'Selamat Datang Di Website Resmi Ellatheria!'],
+
         typeSpeed: 50,
         backSpeed: 30,
         backDelay: 5000,
         loop: true
-});
+})
+;
 
 //scroll reveal
 
@@ -25,7 +28,7 @@ ScrollReveal({
         delay: 200
 });
 
-ScrollReveal().reveal('.home-img , .heading , .home-content , .headig , .ig-container , .tiktok , .twitter , .showroompf' , { origin: 'bottom' });
+ScrollReveal().reveal('.home-img , .heading , .home-content , .headig , .ig-container , .tiktok , .twitter , .showroompf , .project-detail-gallery' , { origin: 'bottom' });
 ScrollReveal().reveal('.data , .timelineella , .timeline-container', { origin: 'top' });
 ScrollReveal().reveal('.centerbtn' , { origin: 'left' });
 
