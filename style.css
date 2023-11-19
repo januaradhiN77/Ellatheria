@@ -1520,7 +1520,7 @@ input:not(:hover){
 }
 .project-detail-box{
     display: flex;
-    
+    margin-left: 10px;
     width: 100%;
 }
 .project-detail-container{
