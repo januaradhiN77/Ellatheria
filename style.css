@@ -2553,7 +2553,7 @@ input:not(:hover){
 .project-detail-box{
     display: flex;
     flex-direction: column;
-    
+    width: 100%;
 }
 .project-detail-container{
     width: 99%;
@@ -2562,7 +2562,7 @@ input:not(:hover){
     display: flex;
     border-radius: 15px;
     justify-content: center;
-    
+    align-items: center;
 }
 .project-detail-image{
     display: flex;
@@ -2579,6 +2579,7 @@ input:not(:hover){
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     margin-top: 50px;
     width: 100%;
 }
@@ -2586,12 +2587,14 @@ input:not(:hover){
     font-weight: 600;
     font-size: 20px;
     color: #FFBC3B;
-    text-align: center;
+    margin-right: auto;
+    margin-left: 40px;
+    
 }
 .text-project-detail p{
     margin-top: 30px;
     width: 90%;
-    margin-left: 20px;
+    margin-left: 0px;
 }
 .text-project-detail img{
     width: 200px;
@@ -2625,12 +2628,12 @@ input:not(:hover){
         
 }
 .project-detail-gallery-box img{
-        width: 300px;
+        width: 500px;
             border-radius: 10px;
             transition: transform 0.5s;
 }
         .show-gallery {
-            max-height: 2000px; /* Adjust the max-height as needed */
+            max-height: 2600px; /* Adjust the max-height as needed */
         }
         
 .back-button{
@@ -3732,7 +3735,8 @@ input:not(:hover){
     font-weight: 600;
     font-size: 20px;
     color: #FFBC3B;
-    text-align: center;
+    margin-right: auto;
+    margin-left: 30px;
 }
 .text-project-detail p{
     margin-top: 30px;
