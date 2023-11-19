@@ -1520,7 +1520,7 @@ input:not(:hover){
 }
 .project-detail-box{
     display: flex;
-    margin-left: 20px;
+    margin-left: 40px;
     width: 100%;
 }
 .project-detail-container{
@@ -1590,14 +1590,14 @@ input:not(:hover){
 
      align-items: center;
 
-     flex-direction: column;
+     flex-wrap: wrap;
      margin-top: 50px;
      gap: 20px;
             transition: max-height 0.6s ease-out;
         
 }
 .project-detail-gallery-box img{
-        width: 500px;
+        width: 400px;
             border-radius: 10px;
             transition: transform 0.5s;
 }
