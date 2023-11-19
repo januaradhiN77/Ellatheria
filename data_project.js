@@ -40,7 +40,7 @@ document.getElementById('gallery3').outerHTML = '<a href="https://twitter.com/El
 
 else if (projectId === 'anniversary2abigailuxe') {
     document.getElementById('hastag').innerHTML = '#Abigailuxe2eachDream';
-    document.getElementById('textProject').innerHTML = 'Tak terasa 2 tahun Fanbase ini berdiri untuk mendukung @AM_EllaJKT48 .<br>Banyak yg di lalu baik senang walaupun sedih.<br><br> Terimakasih atas dukungannya untuk Fanbase ini selama 2 tahun ini, harapannya agar ke depannya semua selalu solid untuk mendukung Ella !<br>#Abigailuxe2earchDream';
+    document.getElementById('textProject').innerHTML = 'Tak terasa 2 tahun Fanbase ini berdiri untuk mendukung <a style="color: #FFAC39; "href="https://twitter.com/AM_EllaJKT48">@AM_EllaJKT48</a> .<br>Banyak yg di lalu baik senang walaupun sedih.<br><br> Terimakasih atas dukungannya untuk Fanbase ini selama 2 tahun ini, harapannya agar ke depannya semua selalu solid untuk mendukung Ella !<br>#Abigailuxe2earchDream';
     document.getElementById('tanggalProject').innerHTML = '28 Agustus 2022';
     document.getElementById('imageUtama').src = 'https://pbs.twimg.com/media/FbNa2T_UIAAtlYA?format=jpg&name=small';
     document.getElementById('gallery1').outerHTML = '<a href="https://x.com/EllatheriaOfc/status/1563743174354702336?s=20" target="_blank">' +
@@ -63,7 +63,7 @@ document.getElementById('').outerHTML = '<a href="URL_tautan_gambar1" target="_b
 
 else if (projectId === 'arc17ellaterland') {
     document.getElementById('hastag').innerHTML = '#Arc17Ellaterland';
-    document.getElementById('textProject').innerHTML = 'Project perayaan ulang tahun Ella ke 17. <br><br>Imagine. Once you reach seventeen, a place that is never to be seen, appeared upon you. What would you do? <br><br>An island full of happiness and people who loves you that will stand by your side on your way to adulthood.<br><br>#Arc17Ellaterland<br><br>We proudly presents“ Ellaterland”, a project specially made for@AM_EllaJKT48’ s Sweet seventeen birthday.';
+    document.getElementById('textProject').innerHTML = 'Project perayaan ulang tahun Ella ke 17. <br><br>Imagine. Once you reach seventeen, a place that is never to be seen, appeared upon you. What would you do? <br><br>An island full of happiness and people who loves you that will stand by your side on your way to adulthood.<br><br>#Arc17Ellaterland<br><br>We proudly presents“ Ellaterland”, a project specially made for<a style="color: #FFAC39; "href="https://twitter.com/AM_EllaJKT48">@AM_EllaJKT48</a>’ s Sweet seventeen birthday.';
     document.getElementById('tanggalProject').innerHTML = '6 Agustus 2023';
     document.getElementById('imageUtama').src = 'https://pbs.twimg.com/media/F22-H5RaYAAKC2e?format=jpg&name=small';
     document.getElementById('gallery1').outerHTML = '<a href="https://twitter.com/AM_EllaJKT48/status/1690036579455414272?t=Mz4lM1QmUX2zNJvsr1Sxmw&s=19" target="_blank">' +
@@ -83,16 +83,16 @@ document.getElementById('gallery6').outerHTML = '<a href="https://x.com/Ellather
     
 } 
 else if (projectId === '3llatheriaanniversary') {
-    document.getElementById('hastag').innerHTML = '#';
-    document.getElementById('textProject').innerHTML = '';
-    document.getElementById('tanggalProject').innerHTML = '';
-    document.getElementById('imageUtama').src = '';
-    document.getElementById('').outerHTML = '<a href="URL_tautan_gambar1" target="_blank">' +
-        '<img id="gallery" src="" alt=""></a>';
-document.getElementById('').outerHTML = '<a href="URL_tautan_gambar1" target="_blank">' +
-            '<img id="gallery" src="" alt=""></a>';
-document.getElementById('').outerHTML = '<a href="URL_tautan_gambar1" target="_blank">' +
-        '<img id="gallery" src="" alt=""></a>';
+    document.getElementById('hastag').innerHTML = '#3llatheriaAnniversary';
+    document.getElementById('textProject').innerHTML = 'Hari ini terulang ketiga kalinya. Kami menabur doa bahagia. Menabur suka cita dalam cerita. Penuh cinta makin membara. Bersiap menyajikan yang baru untuk kalian semua. Memberi bahagia yang tak terucap kata. Harapan besar untuk kedepannya.🙌🏻🤙🏻🥳<br>#3llatheriaAnniversary<br><br>Terimakasih, selalu ada untuk bermimpi bersama, menyisihkan suka dan duka. Perjalanan penuh makna, Ellatheria. Mengharap yang paling baik dari sebelumnya. Mencipta cerita lebih bahagia. Biarkan kami mempersembahkan cerita. Untuk kamu, <a style="color: #FFAC39; "href="https://twitter.com/AM_EllaJKT48">@AM_EllaJKT48</a><br>#3llatheriaAnniversaryy';
+    document.getElementById('tanggalProject').innerHTML = '28 Agustus 2023';
+    document.getElementById('imageUtama').src = 'https://pbs.twimg.com/media/F4m6Ba2bgAA0-4p?format=jpg&name=large';
+    document.getElementById('gallery1').outerHTML = '<a href="https://pbs.twimg.com/media/F6TjMizbAAIHzlz?format=jpg&name=medium" target="_blank">' +
+        '<img id="gallery1" src="https://pbs.twimg.com/media/F6TjMizbAAIHzlz?format=jpg&name=medium" alt=""></a>';
+document.getElementById('gallery2').outerHTML = '<a href="https://pbs.twimg.com/media/F6TjMizbAAE8zuO?format=jpg&name=small" target="_blank">' +
+            '<img id="gallery2" src="https://pbs.twimg.com/media/F6TjMizbAAE8zuO?format=jpg&name=small" alt=""></a>';
+document.getElementById('gallery3').outerHTML = '<a href="https://pbs.twimg.com/media/F6TjMizbMAA61Q9?format=jpg&name=small" target="_blank">' +
+        '<img id="gallery3" src="https://pbs.twimg.com/media/F6TjMizbMAA61Q9?format=jpg&name=small" alt=""></a>';
 document.getElementById('').outerHTML = '<a href="URL_tautan_gambar1" target="_blank">' +
                     '<img id="gallery" src="" alt=""></a>';
 document.getElementById('').outerHTML = '<a href="URL_tautan_gambar1" target="_blank">' +
@@ -103,13 +103,13 @@ document.getElementById('').outerHTML = '<a href="URL_tautan_gambar1" target="_b
     
     
 } 
-else if (projectId === '') {
-    document.getElementById('hastag').innerHTML = '#';
-    document.getElementById('textProject').innerHTML = '';
-    document.getElementById('tanggalProject').innerHTML = '';
-    document.getElementById('imageUtama').src = '';
-    document.getElementById('').outerHTML = '<a href="URL_tautan_gambar1" target="_blank">' +
-        '<img id="gallery" src="" alt=""></a>';
+else if (projectId === 'merchandisevol1') {
+    document.getElementById('hastag').innerHTML = 'Ellatheria Merchandise Vol 1';
+    document.getElementById('textProject').innerHTML = '[ELLATHERIA PROUDLY PRESENT]<br>Official Merchandise Vol.1 telah dibuka 🔥<br><br>Setiap pembelian bundle package ini juga akan mendapatkan bonus Photo Card dan Stiker!<br><br>So, buruan checkout barang yang kalian inginkan!<br><br>Order via link berikut ini; <br><a style="color: #FFAC39; "href="https://ellatheria.my.id/merchandise">https://ellatheria.my.id/merchandise</a><br>atau<br><a style="color: #FFAC39; "href="https://tokopedia.com/ellatheriaofc">https://tokopedia.com/ellatheriaofc</a>';
+    document.getElementById('tanggalProject').innerHTML = '18 Oktober 2023';
+    document.getElementById('imageUtama').src = 'https://pbs.twimg.com/media/F8ufGaIWQAArnSV?format=jpg&name=medium';
+    document.getElementById('gallery1').outerHTML = '<a href="" target="_blank">' +
+        '<img id="gallery" src="merchandiseimg/merchandise_banner.jpg" alt=""></a>';
 document.getElementById('').outerHTML = '<a href="URL_tautan_gambar1" target="_blank">' +
             '<img id="gallery" src="" alt=""></a>';
 document.getElementById('').outerHTML = '<a href="URL_tautan_gambar1" target="_blank">' +
