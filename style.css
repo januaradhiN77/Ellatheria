@@ -3917,6 +3917,7 @@ input:not(:hover){
     justify-content: center;
     flex-direction: column-reverse;
     text-align: center;
+    margin-bottom: auto;
   }
     .ig-box img {
             width: 300px;
