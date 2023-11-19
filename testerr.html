@@ -1,0 +1,174 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- ... (kode yang lain tetap sama) -->
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Ellatheria</title>
+
+    <link rel="stylesheet" href="style.css">
+   <link rel="shorcut icon" href="img/ella.f.logo.jpg">
+
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.3.67/css/materialdesignicons.min.css">
+    
+    <style>
+        /* CSS for gallery dropdown */
+        .project-detail-gallery {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px; /* Adjust the margin as needed */
+        }
+
+        .gallery-heading {
+            cursor: pointer;
+            text-decoration: underline;
+            display: flex;
+            align-items: center;
+        }
+
+        .gallery-icon {
+            margin-left: 5px; /* Adjust the margin as needed */
+            transition: transform 0.3s;
+        }
+
+        .gallery-heading.active .gallery-icon {
+            transform: rotate(180deg);
+        }
+
+        .project-detail-gallery-box {
+            position: relative;
+            overflow: hidden;
+            margin-top: 20px; /* Adjust the margin as needed */
+            max-height: 0;
+            transition: max-height 0.5s ease-out;
+        }
+
+        .project-detail-gallery-box img {
+            width: 300px;
+            border-radius: 10px;
+            transition: transform 0.5s;
+        }
+        .show-gallery {
+            max-height: 1000px; /* Adjust the max-height as needed */
+        }
+    </style>
+</head>
+
+<body>
+    <div id="loader" class="center"></div>
+
+    <script>
+        document.onreadystatechange = function () {
+            if (document.readyState !== "complete") {
+                document.querySelector(
+                    "body"
+                ).style.visibility = "hidden";
+                document.querySelector(
+                    "#loader"
+                ).style.visibility = "visible";
+            } else {
+                document.querySelector(
+                    "#loader"
+                ).style.display = "none";
+                document.querySelector(
+                    "body"
+                ).style.visibility = "visible";
+            }
+        };
+    </script>
+
+    <nav>
+
+        <a href="https://ellatheria.my.id" class="logo"><img src="img/ella.f.logo.jpg"></a>
+        <img src="img/ellatheria_text.png" style="width: 150px; margin-left: 20px;">
+        <div class="toggle" onclick="toggleMenu();">
+        </div>
+
+        <ul class="menu">
+
+            <li><a href="https://ellatheria.my.id/">Home</a></li>
+            <li><a href="#" onclick="toggleMenu();">Gallery</a></li>
+
+            <li><a href="https://ellatheria.my.id/article/article" onclick="toggleMenu();">Article</a></li>
+            <li><a href="https://ellatheria.my.id/merchandise" onclick="toggleMenu();">Merchandise</a></li>
+            <li> <a href="https://ellatheria.my.id/twibbon" onclick="toggleMenu();">Twibbon Ellaterland</a></li>
+            <li> <div class="gallery-heading" onclick="toggleGallery()">GALLERY <span class="gallery-icon">▼</span></div></li>
+        </ul>
+    </nav>
+
+    <!-- ... (kode yang lain tetap sama) -->
+
+    <section class="project-detail">
+        <div class="project-detail-container">
+            <div class="project-detail-box">
+        <div class="project-detail-container">
+                <div class="project-detail-box">
+                        <div class="project-detail-image">
+
+        <img src="" id="imageUtama">
+
+                        </div>
+                        
+<div class="text-project-detail" >
+        <span id="hastag"></span>
+        <p id="textProject"><p style="font-size: 10px;" id="tanggalProject"></p></p>
+
+</div>
+                <!-- Modified Gallery section with dropdown -->
+                <div class="project-detail-gallery" id="galleryContainer">
+                    <div class="gallery-heading" onclick="toggleGallery()">GALLERY <span class="gallery-icon">▼</span></div>
+
+                    <div class="project-detail-gallery-box" id="detail-project">
+                        <img src="" id="gallery1">
+<img src="" id="gallery2">
+
+
+                        <img src="" id="gallery3">
+                        <img src="" id="gallery4">
+                    </div>
+               
+                    
+                    
+                </div>
+                <!-- End Modified Gallery section -->
+
+                <!-- ... (kode yang lain tetap sama) -->
+            </div>
+        </div>
+    </section>
+
+    <!-- ... (kode yang lain tetap sama) -->
+
+    <script>
+        function goToWebsite(websiteURL) {
+            window.location.href = websiteURL;
+        }
+
+        function toggleGallery() {
+            var galleryBox = document.getElementById("detail-project");
+            galleryBox.classList.toggle("show-gallery");
+
+            // Toggle the active class on the gallery heading
+            var galleryHeading = document.querySelector(".gallery-heading");
+            galleryHeading.classList.toggle("active");
+        }
+    </script>
+    <div class="copyright">
+        <p>Copyright &#169; 2023 Ellatheria</p>
+        <p><span></span>All Right Reserved</p>
+    </div>
+
+    <script src="https://ellatheria.my.id/js/typed.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src=".js/main.js"></script>
+    <script src="data_project.js"></script>
+    <!-- ... (kode yang lain tetap sama) -->
+</body>
+
+</html>

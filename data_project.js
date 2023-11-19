@@ -82,7 +82,7 @@ document.getElementById('gallery6').outerHTML = '<a href="https://x.com/Ellather
     
     
 } 
-else if (projectId === '') {
+else if (projectId === '3llatheriaanniversary') {
     document.getElementById('hastag').innerHTML = '#';
     document.getElementById('textProject').innerHTML = '';
     document.getElementById('tanggalProject').innerHTML = '';

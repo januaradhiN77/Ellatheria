@@ -3582,19 +3582,112 @@ input:not(:hover){
     display: flex;
     flex-direction: column;
     align-items: center ;
+    
+    
 }
 .project-detail-gallery h2{
     font-size: 20px;
 }
 .project-detail-gallery-box{
-     display: flex;
+     position: relative;
+            overflow: hidden;
+            margin-top: 20px; /* Adjust the margin as needed */
+            max-height: 0px;
+            display: flex;
+
      align-items: center;
+
+     flex-direction: column;
      margin-top: 50px;
+     gap: 20px;
+            transition: max-height 0.6s ease-out;
+        
 }
 .project-detail-gallery-box img{
         width: 300px;
-        border-radius: 10px;
+            border-radius: 10px;
+            transition: transform 0.5s;
 }
+        .show-gallery {
+            max-height: 2000px; /* Adjust the max-height as needed */
+        }
+        
+.back-button{
+
+   display:flex;
+
+   flex-direction: column;
+   margin-top: -50px;
+   justify-content: center;
+   align-items: center;
+}
+.back-buttoj img{
+   width: 200px;
+}
+.back-button a{
+     font-weight: 500;
+}
+.back-button a{
+
+ background: #FFAC0C;
+
+ border-radius: 20px;
+ width: 180px;
+ height: 40px;
+ display: flex;
+ color: #FFFFFF;
+ text-align: center;
+ align-items: center;
+ justify-content: center;
+ margin-top: 15px;
+ 
+}
+.back-button a:hover{
+
+ background: transparent;
+
+ border: 2px solid #FFAC0C;
+ transition: 0.5s;
+}
+.back-button a:not(:hover){
+ transition: 0.5s;
+}
+.button-back{
+        display: flex;
+        gap: 20px;
+}
+        .project-detail-gallery {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 0px; /* Adjust the margin as needed */
+        }
+
+        .gallery-heading {
+            cursor: pointer;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            font-weight: 600;
+
+    font-size: 20px;
+
+    color: #FFBC3B;
+    text-align: center;
+        }
+
+        .gallery-icon {
+            margin-left: 5px; /* Adjust the margin as needed */
+            transition: transform 0.3s;
+        }
+
+        .gallery-heading.active .gallery-icon {
+            transform: rotate(180deg);
+        }
+
+  
+
+        
 }
 
 

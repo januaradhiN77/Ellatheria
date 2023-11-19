@@ -7,7 +7,7 @@
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About - Ellatheria</title>
+    <title>Project - Ellatheria</title>
 
     <link rel="stylesheet" href="style.css">
    <link rel="shorcut icon" href="img/ella.f.logo.jpg">
@@ -41,6 +41,11 @@
             right: 0; 
             margin: auto; 
         } 
+            
+        /* CSS for gallery dropdown */
+
+
+    
     </style> 
 
 
@@ -104,48 +109,44 @@
         <p id="textProject"><p style="font-size: 10px;" id="tanggalProject"></p></p>
 
 </div>
-<div class="project-detail-gallery">
-        <h2>GALLERY</h2>
+<div class="project-detail-gallery" id="galleryContainer">
+                    <div class="gallery-heading" onclick="toggleGallery()">GALLERY <span class="gallery-icon">▼</span></div>
         <div class="project-detail-gallery-box" id="detail-project">
-               <img src="" id="gallery1">
-        </div>
-        <div class="project-detail-gallery-box">
-                <img src="" id="gallery2">
-        </div>
-        
-        <div class="project-detail-gallery-box">
-               <img src="" id="gallery3">
-        </div>
-        <div class="project-detail-gallery-box">
-               <img src="" id="gallery4">
-        </div>
-        <div class="project-detail-gallery-box">
-                <img src="" id="gallery5">
-        </div>
-        
-        <div class="project-detail-gallery-box">
-                <img src="" id="gallery6">
-        </div>
-        <div class="project-detail-gallery-box">
-                <img src="" id="gallery7">
-        </div>
+<img src="" id="gallery1">
+<img src="" id="gallery2">
+<img src="" id="gallery3">
+<img src="" id="gallery4">
+<img src="" id="gallery5">
+<img src="" id="gallery6">
+<img src="" id="gallery7">
 
-<div class="join-us">
-<div style="width: 130px; margin-top: 30px; "class="button-join">
-<a href="about.html">BACK</a>
+
+
+
+
+
+
+
+        </div>
+<div class="back-button">
+        <div style="width: 130px; margin-top: 90px; " class="button-back">
+                <a href="about.html">BACK</a>
+        </div>
 </div>
-</div>
+<div class="batas"></div>
+<div class="batas"></div>
+<div class="batas"></div>
+
+
 
 </div>
                         
+
                         
                         
                         
                         
-                        
-      <div class="batas"></div>
-      <div class="batas"></div>
-      <div class="batas"></div>
+
 
                 </div>
 
@@ -165,6 +166,14 @@
         function goToWebsite(websiteURL) {
                 window.location.href = websiteURL;
                 //alert("Oops! Terjadi kesalahan. 4000");
+        }
+                        function toggleGallery() {
+            var galleryBox = document.getElementById("detail-project");
+            galleryBox.classList.toggle("show-gallery");
+
+            // Toggle the active class on the gallery heading
+            var galleryHeading = document.querySelector(".gallery-heading");
+            galleryHeading.classList.toggle("active");
         }
 </script>
         <div class="copyright">
