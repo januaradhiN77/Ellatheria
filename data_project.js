@@ -69,7 +69,7 @@ else if (projectId === 'arc17ellaterland') {
     document.getElementById('hastag').innerHTML = '#Arc17Ellaterland';
     document.getElementById('textProject').innerHTML = 'Project perayaan ulang tahun Ella ke 17. <br><br>Imagine. Once you reach seventeen, a place that is never to be seen, appeared upon you. What would you do? <br><br>An island full of happiness and people who loves you that will stand by your side on your way to adulthood.<br><br>#Arc17Ellaterland<br><br>We proudly presents“ Ellaterland”, a project specially made for<a style="color: #FFAC39; "href="https://twitter.com/AM_EllaJKT48">@AM_EllaJKT48</a>’ s Sweet seventeen birthday.';
     document.getElementById('tanggalProject').innerHTML = '6 Agustus 2023';
-    document.getElementById('imageUtama').src = 'https://pbs.twimg.com/media/F22-H5RaYAAKC2e?format=jpg&name=small';
+    document.getElementById('imageUtama').src = 'https://pbs.twimg.com/media/F22-FNVbYAADScA?format=jpg&name=large';
     document.getElementById('gallery1').outerHTML = '<a href="https://pbs.twimg.com/media/F3Q3RhBbUAASZ7j?format=jpg&name=900x900" target="_blank">' +
         '<img id="gallery1" src="https://pbs.twimg.com/media/F3Q3RhBbUAASZ7j?format=jpg&name=900x900" alt=""></a>';
 document.getElementById('gallery2').outerHTML = '<a href="https://pbs.twimg.com/media/F3Zhj52asAESxTL?format=jpg&name=900x900" target="_blank">' +
