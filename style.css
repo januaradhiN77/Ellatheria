@@ -2721,8 +2721,8 @@ input:not(:hover){
 }
 .project-detail-box{
     display: flex;
-    flex-direction: column;
-    margin-left: 0px;
+    
+    margin-left: 40px;
     width: 100%;
 }
 .project-detail-container{
