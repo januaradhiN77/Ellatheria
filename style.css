@@ -1388,6 +1388,7 @@ input:not(:hover){
   width: 190px;
   margin-top: 0px;
   height: 200px;
+  object-fit: cover;
   border-radius: 5px 5px 0px 0px;
   z-index: 2;
 }
@@ -2530,6 +2531,7 @@ input:not(:hover){
   width: 190px;
   margin-top: 0px;
   height: 200px;
+  object-fit: cover;
   border-radius: 5px 5px 0px 0px;
   z-index: 2;
 }
