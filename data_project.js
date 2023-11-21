@@ -3,7 +3,7 @@ var projectId = urlParams.get('project');
 
 if (projectId === 'startjourneyella') {
     document.getElementById('hastag').innerHTML = '#StartJourneyElla';
-    document.getElementById('textProject').innerHTML = 'Ellatheria Mempersembahkan Project untuk Sonichi Show Theater di Setlist Seishun Girls. #StartJourneyElla.';
+    document.getElementById('textProject').innerHTML = 'Ellatheria mempersembahkan project untuk Sonichi Show Theater di Setlist Seishun Girls. #StartJourneyElla.';
     document.getElementById('tanggalProject').innerHTML = '19 Maret 2022';
     document.getElementById('imageUtama').src = 'https://pbs.twimg.com/media/FONmfgaVIAoXXI5?format=jpg&name=small';
     document.getElementById('gallery1').outerHTML = '<a href="https://pbs.twimg.com/media/FOWeyBuUYAMGuNf?format=jpg&name=large" target="_blank">' +
