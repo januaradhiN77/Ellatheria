@@ -3944,8 +3944,8 @@ input:not(:hover){
 
      align-items: center;
      justify-content: center;
-     flex-wrap: nowrap;
-     
+     flex-wrap: none;
+     flex-direction: column;
      margin-top: 50px;
      gap: 20px;
             transition: max-height 0.6s ease-out;
