@@ -1343,14 +1343,14 @@ input:not(:hover){
   margin-top: -50px;
 }
 .project::webkit-scrollbar{
-  height: 4px;
+  height: 10px;
   border-radius: 10px;
-  background: transparent;
+  background:#FFAD0D;
 }
 .project::-webkit-scrollbar-thumb{
-  height: 4px;
+  height: 10px;
   border-radius: 10px;
-  background: transparent;
+  background: #FFAD0D;
 }
 .project{
   display: flex;
@@ -2486,14 +2486,16 @@ input:not(:hover){
   margin-top: -50px;
 }
 .project::webkit-scrollbar{
-  height: 4px;
+
+  height: 10px;
+
   border-radius: 10px;
-  background: transparent;
+  background:#FFAD0D;
 }
 .project::-webkit-scrollbar-thumb{
-  height: 4px;
+  height: 10px;
   border-radius: 10px;
-  background: transparent;
+  background: #FFAD0D;
 }
 .project{
   display: flex;
@@ -3700,14 +3702,14 @@ input:not(:hover){
   margin-top: -50px;
 }
 .project::webkit-scrollbar{
-  height: 4px;
+  height: 10px;
   border-radius: 10px;
-  background: transparent;
+  background:#FFAD0D;
 }
 .project::-webkit-scrollbar-thumb{
-  height: 4px;
+  height: 10px;
   border-radius: 10px;
-  background: transparent;
+  background: #FFAD0D;
 }
 .project{
   display: flex;
