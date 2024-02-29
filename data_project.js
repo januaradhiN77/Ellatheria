@@ -128,19 +128,19 @@ document.getElementById('').outerHTML = '<a href="URL_tautan_gambar1" target="_b
     
     
 } 
-else if (projectId === '') {
-    document.getElementById('hastag').innerHTML = '#';
-    document.getElementById('textProject').innerHTML = '';
-    document.getElementById('tanggalProject').innerHTML = '';
-    document.getElementById('imageUtama').src = '';
-    document.getElementById('').outerHTML = '<a href="URL_tautan_gambar1" target="_blank">' +
-        '<img id="gallery" src="" alt=""></a>';
-document.getElementById('').outerHTML = '<a href="URL_tautan_gambar1" target="_blank">' +
-            '<img id="gallery" src="" alt=""></a>';
-document.getElementById('').outerHTML = '<a href="URL_tautan_gambar1" target="_blank">' +
-        '<img id="gallery" src="" alt=""></a>';
-document.getElementById('').outerHTML = '<a href="URL_tautan_gambar1" target="_blank">' +
-                    '<img id="gallery" src="" alt=""></a>';
+else if (projectId === 'elprestatie100') {
+    document.getElementById('hastag').innerHTML = '#ElPreStatie100';
+    document.getElementById('textProject').innerHTML = '<a href="https://twitter.com/AM_EllaJKT48" style="color: #FFAC39">@AM_EllaJKT48</a>, gadis cantik yang melangkah untuk meraih mimpi. Bersama dengan `Angin` yang selalu mendorong ia untuk berlari, dan menemani kemanapun langkah nya berpijak. Bertemu dengan rekan seperjuangan, bahkan dengan orang-orang yang selalu mendukung mimpi-nya.<br><br>Banyak hal yang telah ia lalui untuk sampai di titik ini. Perasaan senang, sedih, terpuruk, membara semua pernah dirasakan. Sekarang ia telah mencapai `check point` pertama dalam perjalanan-nya meraih mimpi. Tidak mudah memang, namun akhirnya bisa ia raih. Entah kemana lagi `Angin` akan mendorong langkah kecil nya, yang pasti ia akan terus melangkah.<br><br>#ElPreStatie100';
+    document.getElementById('tanggalProject').innerHTML = '21 Februari 2024';
+    document.getElementById('imageUtama').src = 'https://pbs.twimg.com/media/GG3IuqtaAAARMAp?format=jpg&name=900x900';
+    document.getElementById('gallery1').outerHTML = '<a href="https://pbs.twimg.com/media/GG8wvgga8AEY4Zs?format=jpg&name=900x900" target="_blank">' +
+        '<img id="gallery1" src="https://pbs.twimg.com/media/GG8wvgga8AEY4Zs?format=jpg&name=900x900" alt=""></a>';
+document.getElementById('gallery2').outerHTML = '<a href="https://pbs.twimg.com/media/GG9XgRVaUAAeoob?format=jpg&name=small" target="_blank">' +
+            '<img id="gallery2" src="https://pbs.twimg.com/media/GG9XgRVaUAAeoob?format=jpg&name=small" alt=""></a>';
+document.getElementById('gallery3').outerHTML = '<a href="https://pbs.twimg.com/media/GG9XgRSa0AIHDID?format=jpg&name=small" target="_blank">' +
+        '<img id="gallery3" src="https://pbs.twimg.com/media/GG9XgRSa0AIHDID?format=jpg&name=small" alt=""></a>';
+document.getElementById('gallery4').outerHTML = '<a href="https://pbs.twimg.com/media/GG9XgRSaUAE5dfc?format=jpg&name=small" target="_blank">' +
+                    '<img id="gallery4" src="https://pbs.twimg.com/media/GG9XgRSaUAE5dfc?format=jpg&name=small" alt=""></a>';
 document.getElementById('').outerHTML = '<a href="URL_tautan_gambar1" target="_blank">' +
                     '<img id="gallery" src="" alt=""></a>';
 document.getElementById('').outerHTML = '<a href="URL_tautan_gambar1" target="_blank">' +
